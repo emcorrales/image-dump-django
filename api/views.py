@@ -3,7 +3,7 @@ from .models import Photo
 from .serializers import PhotoSerializer
 
 
-class ListPhotoView(generics.ListAPIView):
+class PhotosView(generics.ListAPIView):
     """
     Provides a get method handler.
     """
